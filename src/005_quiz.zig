@@ -1,6 +1,6 @@
 const std = @import("std");
 pub fn main() void {
-    const letters = "Hello Zig";
+    const letters = "Hello Zig World!";
 
     // 重点 1: 数组索引必须是 usize 类型。
     var x: usize = 6;
